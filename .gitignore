@@ -1,0 +1,6 @@
+node_modules/
+packages/**/node_modules
+.vscode
+.idea
+.package-lock.json
+.nx/cache

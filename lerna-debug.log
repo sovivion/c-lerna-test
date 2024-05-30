@@ -1,0 +1,17 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   y: true,
+0 silly argv   yes: true,
+0 silly argv   lernaVersion: '8.1.3',
+0 silly argv   '$0': '/Users/chaos/newWorld/new-lerna-workspace/lerna-test/node_modules/.bin/lerna',
+0 silly argv   name: 'package-1'
+0 silly argv }
+1 notice cli v8.1.3
+2 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
+3 verbose rootPath /Users/chaos/newWorld/new-lerna-workspace/lerna-test
+4 error Error: Command failed with exit code 1: git config --get user.email
+4 error     at makeError (/Users/chaos/newWorld/new-lerna-workspace/lerna-test/node_modules/execa/lib/error.js:59:11)
+4 error     at module.exports.sync (/Users/chaos/newWorld/new-lerna-workspace/lerna-test/node_modules/execa/index.js:186:17)
+4 error     at execSync (/Users/chaos/newWorld/new-lerna-workspace/lerna-test/node_modules/@lerna/create/dist/command.js:74:31)
+4 error     at CreateCommand.gitConfig (/Users/chaos/newWorld/new-lerna-workspace/lerna-test/node_modules/@lerna/create/dist/command.js:4084:16)
+4 error     at CreateCommand.initialize (/Users/chaos/newWorld/new-lerna-workspace/lerna-test/node_modules/@lerna/create/dist/command.js:4018:51)
